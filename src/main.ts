@@ -18,7 +18,7 @@ app.innerHTML = `
         <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
         <span><strong>RELATIVE MOTION</strong><small>相対速度シミュレーター</small></span>
       </a>
-      <div class="topbar-meta"><div class="topbar-note"><span class="live-dot"></span> 速度の基準を切り替えて観察</div><span class="author-credit">by K.Kitaoka</span></div>
+      <div class="topbar-meta"><span class="author-credit">by K.Kitaoka</span><div class="topbar-note"><span class="live-dot"></span> 速度の基準を切り替えて観察</div></div>
     </header>
 
     <main>
