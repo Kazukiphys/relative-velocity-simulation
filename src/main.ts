@@ -1005,8 +1005,7 @@ function animateCarScene(time: number) {
     otherVehicle.position.set(otherPosition.x, 0, otherPosition.z)
     setCameraFieldOfView(70)
     camera.up.set(0, 0, -1)
-    const cameraSign = state.cameraPosition === 'front' ? 1 : -1
-    camera.position.set(observerDirection.x * cameraSign * 25, 120, observerDirection.z * cameraSign * 25)
+    camera.position.set(0, 120, 0)
     camera.lookAt(0, 0, 0)
     return
   }
